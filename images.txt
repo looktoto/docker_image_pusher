@@ -4,3 +4,8 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+
+# 电子书转有声书镜像
+athomasson2/ebook2audiobookstyletts2:latest
+athomasson2/ebook2audiobook:latest
+--platform=linux/amd64 athomasson2/ebook2audiobookstyletts2:latest
