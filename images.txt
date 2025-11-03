@@ -9,6 +9,4 @@ xhofe/alist:latest
 athomasson2/ebook2audiobookstyletts2:latest
 athomasson2/ebook2audiobook:latest
 --platform=linux/amd64 athomasson2/ebook2audiobookstyletts2:latest
-qeeqbox/social-analyzer:latest
-wechaty/wechaty:latest
-portainer/portainer-ce:latest
+
