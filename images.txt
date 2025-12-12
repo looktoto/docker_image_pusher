@@ -5,8 +5,7 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 
-# 电子书转有声书镜像
-athomasson2/ebook2audiobookstyletts2:latest
-athomasson2/ebook2audiobook:latest
---platform=linux/amd64 athomasson2/ebook2audiobookstyletts2:latest
+# 添加 vllm 镜像
+vllm/vllm-openai:v0.12.0
+--platform=linux/amd64 vllm/vllm-openai:v0.12.0
 
